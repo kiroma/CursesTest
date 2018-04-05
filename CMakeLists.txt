@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.0.2)
+project (cursestest)
+add_executable (cursetest
+./Source/main.cpp)
+find_package(Curses)
+target_link_libraries(cursetest ${CURSES_LIBRARIES})
