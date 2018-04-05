@@ -1,0 +1,2 @@
+# CursesTest
+Learning to curse
