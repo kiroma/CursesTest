@@ -3,4 +3,4 @@ project (cursestest)
 add_executable (cursestest
 ./Source/main.cpp)
 find_package(Curses)
-target_link_libraries(cursetest ${CURSES_LIBRARIES})
+target_link_libraries(cursestest ${CURSES_LIBRARIES})
