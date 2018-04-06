@@ -1,12 +1,14 @@
 #include <ncurses.h>
 #include <string>
 #include <cstdint>
-
+extern "C"{
 #include <libavcodec/avcodec.h>
+#include <libavdevice/avdevice.h>
+}
 
 int main(int argc, char** argv)
 {
-	avcodec_register_all();
+	av_register_all();
 	char ch;
 	initscr();
 	cbreak();

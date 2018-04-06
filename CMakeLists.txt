@@ -7,7 +7,7 @@ add_executable (exampledec
 find_package(Curses)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 find_package(FFmpeg REQUIRED
-	COMPONENTS avutil avdevice avcodec)
+	COMPONENTS avutil avdevice avcodec avformat)
 find_package(ZLIB REQUIRED)
 find_package(Threads REQUIRED)
 include_directories(SYSTEM ${ZLIB_INCLUDE_DIR})
